@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+        <meta charset="UTF-8" />
+        <title>Start page</title>
+        <meta name="description" content="Startpage with creative animation in the background. Made for you! Enjoy it" />
+        <meta name="keywords" content="startpage, animated, creative, inspiration" />
+        <meta name="author" content="www.bloo.ovh" />
+        <link rel="shortcut icon" href="star.png">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+	<body>
+		<div id="container">
+            <h1 id="message">Good morning</h1>
+            <form id="search" onsubmit="return false;">
+            	<input id="searchBox" type="text" placeholder="Search Google" autofocus>
+            	<a id="searchButton" href="#">Search</a>
+            </form>
+			<div id="navigation">
+                <a href="http://www.facebook.com/">Facebook</a>
+				<a href="https://mail.google.com/">Gmail</a>
+				<a href="http://www.twitter.com/">Twitter</a>
+				<a href="http://www.inoreader.com/all_articles">Inoreader</a>
+			</div>
+            <canvas id="backgroundAnimation"></canvas>
+		</div>
+        <script src="rAF.js"></script>
+        <script src="backgroundAnimation.js"></script>
+        <script src="content.js"></script>
+	</body>
+</html>
